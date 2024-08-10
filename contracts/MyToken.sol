@@ -15,7 +15,7 @@ contract MyToken is ERC721A {
 
     string public descriptionPrompt = "not me";
 
-    constructor() ERC721A("MyToken", "m") {
+    constructor() ERC721A("MyToken", "MT") {
         contractOwner = msg.sender;
     }
 
